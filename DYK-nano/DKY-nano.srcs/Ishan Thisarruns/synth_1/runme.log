@@ -1,0 +1,99 @@
+
+*** Running vivado
+    with args -log nano_processor.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source nano_processor.tcl
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source nano_processor.tcl -notrace
+Command: synth_design -top nano_processor -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16336 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 384.371 ; gain = 98.348
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'nano_processor' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/nano_processor.vhd:42]
+INFO: [Synth 8-3491] module 'Mux_2_to_1_bit_3' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_2_to_1_bit_3.vhd:32' bound to instance 'Mux_2_to_1_bit_3_0' of component 'Mux_2_to_1_bit_3' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/nano_processor.vhd:182]
+INFO: [Synth 8-638] synthesizing module 'Mux_2_to_1_bit_3' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_2_to_1_bit_3.vhd:39]
+INFO: [Synth 8-3491] module 'Mux_2_to_2' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_2_to_2.vhd:34' bound to instance 'Mux_2_to_1_0' of component 'Mux_2_to_2' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_2_to_1_bit_3.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'Mux_2_to_2' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_2_to_2.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2_to_2' (1#1) [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_2_to_2.vhd:41]
+INFO: [Synth 8-3491] module 'Mux_2_to_2' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_2_to_2.vhd:34' bound to instance 'Mux_2_to_1_1' of component 'Mux_2_to_2' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_2_to_1_bit_3.vhd:61]
+INFO: [Synth 8-3491] module 'Mux_2_to_2' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_2_to_2.vhd:34' bound to instance 'Mux_2_to_1_2' of component 'Mux_2_to_2' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_2_to_1_bit_3.vhd:71]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2_to_1_bit_3' (2#1) [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_2_to_1_bit_3.vhd:39]
+INFO: [Synth 8-3491] module 'Adder_3bit' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Adder_3bit.vhd:34' bound to instance 'Adder_3bit_0' of component 'Adder_3bit' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/nano_processor.vhd:190]
+INFO: [Synth 8-638] synthesizing module 'Adder_3bit' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Adder_3bit.vhd:39]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Adder_3bit.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'FA' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'HA' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/HA.vhd:34' bound to instance 'HA_0' of component 'HA' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/FA.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'HA' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/HA.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'HA' (3#1) [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/HA.vhd:41]
+INFO: [Synth 8-3491] module 'HA' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/HA.vhd:34' bound to instance 'HA_1' of component 'HA' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/FA.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'FA' (4#1) [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Adder_3bit.vhd:64]
+INFO: [Synth 8-3491] module 'FA' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Adder_3bit.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'Adder_3bit' (5#1) [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Adder_3bit.vhd:39]
+INFO: [Synth 8-3491] module 'ProgramCounter' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/ProgramCounter.vhd:34' bound to instance 'ProgramCounter_0' of component 'ProgramCounter' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/nano_processor.vhd:196]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/ProgramCounter.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (6#1) [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/ProgramCounter.vhd:41]
+INFO: [Synth 8-3491] module 'ROM' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/ROM.vhd:36' bound to instance 'ROM_0' of component 'ROM' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/nano_processor.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'ROM' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/ROM.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'ROM' (7#1) [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/ROM.vhd:41]
+INFO: [Synth 8-3491] module 'InstructionDecoder' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/InstructionDecoder.vhd:34' bound to instance 'InstructionDecoder_0' of component 'InstructionDecoder' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/nano_processor.vhd:214]
+INFO: [Synth 8-638] synthesizing module 'InstructionDecoder' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/InstructionDecoder.vhd:50]
+WARNING: [Synth 8-614] signal 'RegJumpCheck' is read in the process but is not in the sensitivity list [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/InstructionDecoder.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'InstructionDecoder' (8#1) [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/InstructionDecoder.vhd:50]
+INFO: [Synth 8-3491] module 'RegBank' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/RegBank.vhd:34' bound to instance 'RegBank_0' of component 'RegBank' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/nano_processor.vhd:232]
+INFO: [Synth 8-638] synthesizing module 'RegBank' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/RegBank.vhd:53]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Decoder_3_to_8.vhd:34' bound to instance 'RegBank_Decoder_3_to_8' of component 'Decoder_3_to_8' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/RegBank.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Decoder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Decoder_3_to_8.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Decoder_2_to_4.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (9#1) [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Decoder_2_to_4.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Decoder_3_to_8.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (10#1) [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Decoder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Reg_4_bit' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Reg_4_bit.vhd:34' bound to instance 'Reg_4_bit_0' of component 'Reg_4_bit' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/RegBank.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'Reg_4_bit' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Reg_4_bit.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Reg_4_bit' (11#1) [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Reg_4_bit.vhd:42]
+INFO: [Synth 8-3491] module 'Reg_4_bit' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Reg_4_bit.vhd:34' bound to instance 'Reg_4_bit_1' of component 'Reg_4_bit' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/RegBank.vhd:91]
+INFO: [Synth 8-3491] module 'Reg_4_bit' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Reg_4_bit.vhd:34' bound to instance 'Reg_4_bit_2' of component 'Reg_4_bit' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/RegBank.vhd:100]
+INFO: [Synth 8-3491] module 'Reg_4_bit' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Reg_4_bit.vhd:34' bound to instance 'Reg_4_bit_3' of component 'Reg_4_bit' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/RegBank.vhd:109]
+INFO: [Synth 8-3491] module 'Reg_4_bit' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Reg_4_bit.vhd:34' bound to instance 'Reg_4_bit_4' of component 'Reg_4_bit' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/RegBank.vhd:118]
+INFO: [Synth 8-3491] module 'Reg_4_bit' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Reg_4_bit.vhd:34' bound to instance 'Reg_4_bit_5' of component 'Reg_4_bit' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/RegBank.vhd:127]
+INFO: [Synth 8-3491] module 'Reg_4_bit' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Reg_4_bit.vhd:34' bound to instance 'Reg_4_bit_6' of component 'Reg_4_bit' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/RegBank.vhd:136]
+INFO: [Synth 8-3491] module 'Reg_4_bit' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Reg_4_bit.vhd:34' bound to instance 'Reg_4_bit_7' of component 'Reg_4_bit' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/RegBank.vhd:145]
+INFO: [Synth 8-256] done synthesizing module 'RegBank' (12#1) [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/RegBank.vhd:53]
+INFO: [Synth 8-3491] module 'Mux_8_to_1_bit_4' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_8_to_1_bit_4.vhd:34' bound to instance 'Mux_8_to_1_bit_4_A' of component 'Mux_8_to_1_bit_4' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/nano_processor.vhd:252]
+INFO: [Synth 8-638] synthesizing module 'Mux_8_to_1_bit_4' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_8_to_1_bit_4.vhd:47]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_0' of component 'Mux_8_to_1' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_8_to_1_bit_4.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'Mux_8_to_1' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_8_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_8_to_1.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8_to_1' (13#1) [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_8_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_1' of component 'Mux_8_to_1' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_8_to_1_bit_4.vhd:70]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_2' of component 'Mux_8_to_1' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_8_to_1_bit_4.vhd:80]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_3' of component 'Mux_8_to_1' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_8_to_1_bit_4.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8_to_1_bit_4' (14#1) [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_8_to_1_bit_4.vhd:47]
+INFO: [Synth 8-3491] module 'Mux_8_to_1_bit_4' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_8_to_1_bit_4.vhd:34' bound to instance 'Mux_8_to_1_bit_4_B' of component 'Mux_8_to_1_bit_4' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/nano_processor.vhd:267]
+INFO: [Synth 8-3491] module 'Mux_8_to_1_bit_4' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_8_to_1_bit_4.vhd:34' bound to instance 'Mux_8_to_1_bit_4_C' of component 'Mux_8_to_1_bit_4' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/nano_processor.vhd:281]
+INFO: [Synth 8-3491] module 'Mux_8_to_1_bit_4' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_8_to_1_bit_4.vhd:34' bound to instance 'Mux_8_to_1_bit_4_D' of component 'Mux_8_to_1_bit_4' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/nano_processor.vhd:294]
+WARNING: [Synth 8-5640] Port 'y' is missing in component declaration [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/nano_processor.vhd:52]
+INFO: [Synth 8-3491] module 'Multi4X4' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Multi4X4.vhd:34' bound to instance 'Multi4X4_0' of component 'Multi4X4' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/nano_processor.vhd:307]
+ERROR: [Synth 8-3493] module 'multi4x4' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Multi4X4.vhd:34' does not have matching formal port for component port 't' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/nano_processor.vhd:307]
+INFO: [Synth 8-3491] module 'ASUnit' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/ASUnit.vhd:34' bound to instance 'ASUnit_0' of component 'ASUnit' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/nano_processor.vhd:315]
+INFO: [Synth 8-3491] module 'Mux_2_to_1_bit_4' declared at 'D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/Mux_2_to_1_bit_4.vhd:34' bound to instance 'Mux_2_to_1_bit_4_0' of component 'Mux_2_to_1_bit_4' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/nano_processor.vhd:325]
+ERROR: [Synth 8-285] failed synthesizing module 'nano_processor' [D:/Ishan Thisara Processor new/Ishan Thisara Processor.srcs/sources_1/new/nano_processor.vhd:42]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 439.902 ; gain = 153.879
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+68 Infos, 2 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Tue May  7 21:46:44 2024...
